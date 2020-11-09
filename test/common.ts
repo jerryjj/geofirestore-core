@@ -1,4 +1,4 @@
-import firebase from 'firebase/app';
+import * as firebase from 'firebase/app';
 import 'firebase/firestore';
 import {GeoFirestoreTypes} from '../src/definitions';
 import {encodeDocumentAdd} from '../src/api/encode';
